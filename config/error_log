@@ -1,0 +1,4 @@
+[29-Oct-2024 02:33:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/devhub/certifiedlions.devhub.digtalsdesigns.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/devhub/certifiedlions.devhub.digtalsdesigns.com/config/database.php on line 18

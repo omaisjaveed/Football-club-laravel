@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'hurme';
+    src: url('HurmeGeometricSans1-Regular.eot');
+    src: url('HurmeGeometricSans1-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HurmeGeometricSans1-Regular.woff2') format('woff2'),
+        url('HurmeGeometricSans1-Regular.woff') format('woff'),
+        url('HurmeGeometricSans1-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'longhaulregular';
+    src: url('/fonts/longhaul-webfont.woff2') format('woff2'),
+         url('/fonts/longhaul-webfont.woff') format('woff'),
+         url('/fonts/Longhaul.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
