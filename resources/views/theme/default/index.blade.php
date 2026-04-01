@@ -14,6 +14,7 @@
 								<div class="hero-text">
 									<h1>{!! xss_clean(get_trans_option('hero_title')) !!}</h1>
 									<p>{!! xss_clean(get_trans_option('hero_content')) !!}</p>
+									<p>Save 35$ </p>
 									@if(get_trans_option('hero_button_text') != '')
 										<div class="button">
 											<a href="{{ get_trans_option('hero_button_link') }}" class="btn">{{ get_trans_option('hero_button_text') }}</a>
