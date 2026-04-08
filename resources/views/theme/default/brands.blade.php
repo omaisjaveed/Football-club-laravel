@@ -30,7 +30,7 @@
 							@if(isset($brand->logo->pivot))
 								<img src="{{ asset('storage/app/'. $brand->logo->file_path) }}" alt="brand-image">
 							@else
-								<img src="{{ asset('public/theme/default/images/no-brand-image.png') }}" alt="#">
+								<img src="{{ asset('public/theme/default/images/no-brand-image.png') }}" alt="brand-image">
 							@endif
 						</a>
 					</div>
