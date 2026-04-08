@@ -28,7 +28,7 @@
 					<div class="single-brand">
 						<a href="{{ url('/brands/'.$brand->slug) }}">
 							@if(isset($brand->logo->pivot))
-								<img src="{{ asset('storage/app/'. $brand->logo->file_path) }}" alt="#">
+								<img src="{{ asset('storage/app/'. $brand->logo->file_path) }}" alt="brand-image">
 							@else
 								<img src="{{ asset('public/theme/default/images/no-brand-image.png') }}" alt="#">
 							@endif
