@@ -20,7 +20,7 @@
 					title="{{ _lang('Remove this item') }}"><i class="fa fa-remove"></i></a>
 
 				<a class="cart-img" href="{{ url('product/' . $cart->associatedModel->slug) }}"><img
-						src="{{ asset('storage/app/' . $cart->associatedModel->image->file_path) }}" alt="#"></a>
+						src="{{ asset('storage/app/' . $cart->associatedModel->image->file_path) }}" alt="cart-image"></a>
 
 				<h4>
 					<a
