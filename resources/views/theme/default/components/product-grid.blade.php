@@ -66,12 +66,13 @@
 						@endif
 					</div>
 				@endif
-
+				<!-- product Rating -->
 				<div class="product-rating">
 					<ul class="reviews">
 						{!! xss_clean(show_rating($product->reviews->avg('rating'))) !!}
 					</ul>
 				</div>
+				<!-- product Rating -->
 
 			</div>
 		</div>
