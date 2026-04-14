@@ -87,6 +87,7 @@
 
 	@if (in_array('dashboard.top_view_items_widget',$permissions) || $user_type == 'admin')
 	<!-- Top Viewed Products start -->
+	<!-- Counter Added -->
 	<div class="col-lg-5 mt-2">
 		<div class="card h-100">
 			<div class="card-body">
