@@ -162,6 +162,7 @@
 		</div>
 	</div>
 	<!-- Recent Orders end -->
+	<!-- Recent Orders Section end -->
 </div>
 @endif
 
