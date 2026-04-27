@@ -10,11 +10,7 @@ use DataTables;
 class CommentController extends Controller
 {
 	
-	/**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+	
     public function __construct()
     {
         date_default_timezone_set(get_option('timezone','Asia/Dhaka'));
