@@ -16,11 +16,7 @@ class CommentController extends Controller
         date_default_timezone_set(get_option('timezone','Asia/Dhaka'));
     }
 	
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+   
     public function index()
     {
         return view('backend.discussions.comment.list');
